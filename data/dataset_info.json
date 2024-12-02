@@ -1,4 +1,67 @@
 {
+  "torchBench_briefInstru": {
+    "file_name": "/mnt/afs/code_corpus/triton_corpus/test/ourBench_briefInstru_alpac.json"
+  },
+  "torchBench_detailInstru": {
+    "file_name": "/mnt/afs/code_corpus/triton_corpus/test/ourBench_detailInstru_alpaca.json"
+  },
+  "synthe_triton_test": {
+    "file_name": "/mnt/afs/code_corpus/triton_corpus/test/synthe_test_alpac.json"
+  },
+  "crawl_triton_test_simpInstru": {
+    "file_name": "/mnt/afs/code_corpus/triton_corpus/test/crawl_test_simpInstru_alpac.json"
+  },
+  "crawl_triton_test_compInstru": {
+    "file_name": "/mnt/afs/code_corpus/triton_corpus/test/crawl_test_compInstru_alpac.json"
+  },
+  "10_triton_test": {
+    "file_name": "/mnt/afs/code_corpus/triton_corpus/test/10_test_eval.json"
+  },
+  "synthe_triton_hard": {
+    "file_name": "/mnt/afs/code_corpus/triton_corpus/synthe_train_chunk_hard_alpac.json"
+  },
+  "synthe_triton_easy": {
+    "file_name": "/mnt/afs/code_corpus/triton_corpus/synthe_train_chunk_easy_alpac.json"
+  },
+  "synthe_triton_all": {
+    "file_name": "/mnt/afs/code_corpus/triton_corpus/synthe_train_alpac.json"
+  },
+  "crawl_triton_hard_complexInstru": {
+    "file_name": "/mnt/afs/code_corpus/triton_corpus/crawl_train_chunk_hard_compInstru_alpac.json"
+  },
+  "crawl_triton_hard_simpleInstru": {
+    "file_name": "/mnt/afs/code_corpus/triton_corpus/crawl_train_chunk_hard_simpInstru_alpac.json"
+  },
+  "crawl_triton_easy_complexInstru": {
+    "file_name": "/mnt/afs/code_corpus/triton_corpus/crawl_train_chunk_easy_compInstru_alpac.json"
+  },
+  "crawl_triton_easy_simpleInstru": {
+    "file_name": "/mnt/afs/code_corpus/triton_corpus/crawl_train_chunk_easy_simpInstru_alpac.json"
+  },
+  "crawl_triton_all_complexInstru": {
+    "file_name": "/mnt/afs/code_corpus/triton_corpus/crawl_train_compInstru_alpac.json"
+  },
+  "crawl_triton_all_simpleInstru": {
+    "file_name": "/mnt/afs/code_corpus/triton_corpus/crawl_train_simpInstru_alpac.json"
+  },
+  "python_code_instructions_18k_alpaca": {
+    "file_name": "/mnt/afs/code_corpus/sft_data/json_data/python_code_instructions_18k_alpaca.json"
+  },
+  "self-oss-instruct-sc2-exec-filter-50k": {
+    "file_name": "/mnt/afs/code_corpus/sft_data/json_data/self-oss-instruct-sc2-exec-filter-50k.json"
+  },
+  "glaive_code_assistant_v3": {
+    "file_name": "/mnt/afs/code_corpus/sft_data/json_data/glaive_code_assistant_v3.json"
+  },
+  "synth_vuln_fixes": {
+    "file_name": "/mnt/afs/code_corpus/sft_data/json_data/synth_vuln_fixes.json"
+  },
+  "our_gpt4_gen_100": {
+    "file_name": "/mnt/afs/code_corpus/sft_data/json_data/our_gpt4_gen_100.json"
+  },
+  "our_gpt4_gen_100_1": {
+    "file_name": "/mnt/afs/code_corpus/sft_data/json_data/our_gpt4_gen_100_1.json"
+  },
   "identity": {
     "file_name": "identity.json"
   },
@@ -296,14 +359,6 @@
       "response": "answer"
     }
   },
-  "openo1_sft": {
-    "hf_hub_url": "llamafactory/OpenO1-SFT",
-    "ms_hub_url": "llamafactory/OpenO1-SFT",
-    "columns": {
-      "prompt": "prompt",
-      "response": "response"
-    }
-  },
   "llava_1k_en": {
     "hf_hub_url": "BUAADreamer/llava-en-zh-2k",
     "subset": "en",
@@ -434,7 +489,7 @@
     }
   },
   "dpo_mix_en": {
-    "hf_hub_url": "llamafactory/DPO-En-Zh-20k",
+    "hf_hub_url": "hiyouga/DPO-En-Zh-20k",
     "subset": "en",
     "ranking": true,
     "formatting": "sharegpt",
@@ -445,7 +500,7 @@
     }
   },
   "dpo_mix_zh": {
-    "hf_hub_url": "llamafactory/DPO-En-Zh-20k",
+    "hf_hub_url": "hiyouga/DPO-En-Zh-20k",
     "subset": "zh",
     "ranking": true,
     "formatting": "sharegpt",
